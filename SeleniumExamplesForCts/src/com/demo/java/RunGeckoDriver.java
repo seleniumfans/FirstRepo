@@ -16,7 +16,6 @@ public class RunGeckoDriver {
 	
 	public static void main(String[] args) {
 		
-		//System.setProperty("webdriver.gecko.driver","E:/LIST OF JARS/Webdriver drivers/geckodriver.exe");
 		System.setProperty("webdriver.firefox.marionette","E:/LIST OF JARS/Webdriver drivers/geckodriver.exe");
 		 
         
