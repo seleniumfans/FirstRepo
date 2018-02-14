@@ -18,8 +18,6 @@ public class RunGeckoDriver {
 		
 		System.setProperty("webdriver.firefox.marionette","E:/LIST OF JARS/Webdriver drivers/geckodriver.exe");
 		 
-        
-		
 		WebDriver driver=new FirefoxDriver();
 		driver.get("http://learn-automation.com");
 	}
