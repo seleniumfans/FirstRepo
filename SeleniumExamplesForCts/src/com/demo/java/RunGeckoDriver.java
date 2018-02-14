@@ -21,7 +21,6 @@ public class RunGeckoDriver {
         
 		
 		WebDriver driver=new FirefoxDriver();
-		
 		driver.get("http://learn-automation.com");
 		System.out.println("Driver Title is :"+driver.getCurrentUrl());
 	}
